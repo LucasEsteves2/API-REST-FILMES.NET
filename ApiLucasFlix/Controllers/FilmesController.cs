@@ -19,7 +19,7 @@ namespace ApiLucasFlix.Controllers
         [HttpPost]
         public IActionResult AddFilme([FromBody] Filme filme)
         {
-            _context.Filmes.Add(filme);//
+            _context.Filmes.Add(filme);
             _context.SaveChanges();
             return CreatedAtAction(nameof(GetById), new { Id = filme.Id},filme);
         }

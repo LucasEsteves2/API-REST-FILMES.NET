@@ -2,7 +2,7 @@
 
 namespace ApiLucasFlix.Migrations
 {
-    public partial class teste : Migration
+    public partial class ligacao : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
